@@ -33,12 +33,40 @@ body {
 
 }
 
-#hero-content {
+.hero-content {
     display: flex;
     justify-content: space-between;
+}
+
+.main-text {
+    width: 50%;
+}
+
+.hero-image {
+    width: 50%;
+
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image .placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: gray;
 }
 
 .main-text h1 {
     font-size: 48px;
     font-weight: 900;
+}
+
+.main-text button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
