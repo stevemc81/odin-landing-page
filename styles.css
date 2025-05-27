@@ -3,9 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', 'Arial', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
-
 
 /* HERO */
 .hero,
@@ -76,6 +75,8 @@
     background-color: #3882f6;
     padding: 10px 30px;
     border-radius: 10px;
+    border-color: white;
+    border-style: solid;
 }
 
 /* INFO */
@@ -139,4 +140,25 @@
 .quote-author {
     font-weight: bold;
     text-align: right;
+}
+
+/* CTA */
+.cta {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.cta-container {
+    width: 50%;
+    padding: 2rem 4rem;
+    background-color: #3882f6;
+    color: white;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
 }
