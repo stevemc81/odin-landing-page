@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', 'Arial', sans-serif;
-    /* border: 1px solid red; */
 }
 
 /* HERO */
@@ -161,4 +160,14 @@
     display: flex;
     justify-content: space-between;
     /* align-items: baseline; */
+}
+
+/* Footer */
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
